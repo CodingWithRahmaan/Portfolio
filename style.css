@@ -1,0 +1,421 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-color: rgb(0, 0, 29); */
+    background: rgb(0,7,38);
+    background: linear-gradient(90deg, rgb(0, 5, 26) 49%, rgb(9, 24, 59) 100%);
+    color: white;
+    font-family: "Poppins", serif;
+}
+
+.navbar{
+    height: 60px;
+    width: 100%;
+    background:rgba(2, 2, 124, 0.377) ;
+    position: fixed;
+    top: 0px;
+    display: flex;
+
+    align-items: center;
+}
+
+.nav-logo{
+    height: 60px;
+    width: 45%;
+    display:flex;
+    align-items: center;
+    margin-left: 90px;
+    font-size: 1.4rem;
+
+    /* background-color: bisque; */
+
+
+
+}
+
+.nav-logo a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-menu{
+    height: 60px;
+    width: 40%;
+    list-style: none;
+    display:flex;
+    /* background-color: bisque; */
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+.nav-menu a{
+    text-decoration: none;
+    color: white;
+}
+.nav-menu a:hover{
+    color: rgb(144, 144, 233);
+    font-size: 1.04rem;
+}
+
+
+.hamburger{
+    display: none;
+}
+.main{
+
+}
+
+
+.first{
+    margin-top: 80px;
+    height: 450px;
+    width: 100%;
+    display: flex;
+    /* background-color: aqua; */
+    justify-content: space-evenly;
+}
+
+.left-first{
+    height: 100%;
+    width: 46%;
+    padding-left:40px ;
+
+    /* background-color: aqua; */
+}
+
+
+.right-first{
+    height: 100%;
+    width: 35%;
+    /* background-color: rgb(121, 121, 224); */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* border-radius: 20px; */
+    margin-left: 50px;
+}
+.right-first > img{
+    height: 80%;
+    width: 80%;
+    border-radius: 20px;
+    margin-top: 40px;
+
+    
+}
+
+
+.text1 > p{
+    font-size: 1.3rem;
+    margin-top: 65px;
+    font-weight: 300;
+
+
+}
+
+.text1 > h1{
+    color: rgb(184, 184, 184);
+    font-size: 3rem;
+    margin-top: 10px;
+    width: 70%;
+}
+
+.text1 > h4{
+    font-size: 1rem;
+    margin-top: 10px;
+    font-weight: 300;
+    word-spacing: 2px;
+    line-height: 30px;
+}
+
+.purple{
+    color: rgb(121, 121, 224);
+    font-weight: 600;
+}
+
+.gapsection{
+    height: 60px;
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+.thin-line{
+    height: 1px ;
+    width: 90%;
+    margin: auto;
+    background-color: aliceblue;
+
+}
+
+
+
+.second{
+    height: 700px;
+    width: 100%;
+    /* background-color: aqua; */
+
+}
+
+.topsecond{
+    height: 55px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center; 
+    align-items: end;
+    color: rgb(184, 184, 184);
+
+}
+
+.mid-second{
+    height: 800px;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: blue; */
+}
+
+.left-second{
+    height: 100%;
+    width: 43%;
+    /* background-color: rgb(43, 255, 0); */
+    margin-left:50px;
+
+    align-items: center;
+}
+
+.img1{
+    height: 300px;
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.img2{
+    height: 330px;
+    width: 70%;
+    border-radius: 20px;
+    margin-top: 100px;
+    margin-left:90px;
+}
+
+
+.left-second> video{
+    height: 300px;
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 70px;
+}
+.right-second{
+    height: 100%;
+    width: 53%;
+    /* background-color: rgb(218, 57, 51); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text2 > p{
+    font-size: 0.9rem;
+    color: white;
+    margin-top: 10px;
+    width: 100%;
+    word-spacing: 2px;
+    line-height: 25px;
+    
+  
+
+    /* line-height: 30px; */
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:425px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background: rgb(0,7,38);
+        background: linear-gradient(90deg, rgb(0, 5, 26) 49%, rgb(6, 18, 46) 100%);        color: white;
+        font-family: "Poppins", serif;
+    }
+
+    .navbar{
+        height: 60px;
+        width: 100%;
+        background:rgba(2, 2, 124, 0.377) ;
+        padding: 0px 20px;
+        position: fixed;
+        top: 0px;
+        display: flex;
+    
+        align-items: center;
+    }
+    
+    .nav-logo{
+        height: 60px;
+        width: 80%;
+        display:flex;
+        align-items: center;
+        margin-left:10px;
+        font-size: 1rem;
+        letter-spacing: 0px;
+    
+        /* background-color: bisque; */
+    
+    
+    
+    }
+    
+    .nav-logo a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .nav-menu{
+        height: 60px;
+        width: 40%;
+        list-style: none;
+        display:flex;
+        /* background-color: bisque; */
+        align-items: center;
+        justify-content: space-between;
+        display: none;
+    
+    
+    }
+    .nav-menu a{
+        text-decoration: none;
+        color: white;
+    }
+    .nav-menu a:hover{
+        color: rgb(144, 144, 233);
+        font-size: 1.04rem;
+    }
+    
+    .hamburger{
+        display: block;
+    }
+
+
+    .main{
+
+    }
+    
+
+
+    .first{
+        margin-top: 60px;
+
+        height: 600px;
+        width: 100%;
+        display: block;
+        /* background-color: aqua; */
+        justify-content: space-evenly;
+    }
+    
+    .left-first{
+        height: 50%;
+        width: 100%;
+        padding-left:0px ;
+
+        /* background-color: aqua; */
+    }
+    
+    
+    .right-first{
+        height:  385px;
+        width: 100%;
+        /* background-color: rgb(121, 121, 224); */
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        /* border-radius: 20px; */
+        position: absolute;
+        z-index: -1;
+        top: 200px;
+        margin-left:0px;
+
+    }
+    .right-first > img{
+        height: 85%;
+        width: 85%;
+        border-radius: 20px;
+        margin-top: 30px;
+    
+    }
+    
+    .text1 > p{
+        font-size: 1.2rem;
+        margin-top: 65px;
+        font-weight: 300;
+        margin-left:30px;
+
+    
+    }
+    
+    .text1 > h1{
+        color: rgb(184, 184, 184);
+        font-size: 2.3rem;
+        margin-top: 10px;
+        width: 100%;
+        text-align: center;
+
+    }
+    
+    .text1 > h4{
+        font-size: 0.8rem;
+        margin-top: 350px;
+        font-weight: 300;
+        text-align: center;
+    }
+    
+
+
+    .purple{
+        color: rgb(121, 121, 224);
+        font-weight: 600;
+    }
+    
+    .gapsection{
+        height: 50px;
+        width: 100%;
+        /* background-color: aqua; */
+    }
+    
+    .thin-line{
+        height: 1px ;
+        width: 85%;
+        margin: auto;
+        background-color: aliceblue;
+    
+    }
+    
+    
+    
+    .second{
+        height: 700px;
+        width: 100%;
+        /* background-color: aqua; */
+    }
+    
+    .topsecond{
+        height: 50px;
+        width: 100%;
+        /* background-color: aqua; */
+        display: flex;
+        justify-content: center; 
+    }
+    
+
+
+
+
+   
+}
