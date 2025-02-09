@@ -152,7 +152,7 @@ body{
 
 
 .second{
-    height: 700px;
+    height: 1000px;
     width: 100%;
     /* background-color: aqua; */
 
@@ -170,7 +170,7 @@ body{
 }
 
 .mid-second{
-    height: 800px;
+    height: 100%;
     width: 95%;
     display: flex;
     justify-content: space-between;
@@ -178,7 +178,7 @@ body{
 }
 
 .left-second{
-    height: 100%;
+    height: 780px;
     width: 43%;
     /* background-color: rgb(43, 255, 0); */
     margin-left:50px;
@@ -202,12 +202,7 @@ body{
 }
 
 
-.left-second> video{
-    height: 300px;
-    width: 100%;
-    border-radius: 20px;
-    margin-top: 70px;
-}
+
 .right-second{
     height: 100%;
     width: 53%;
@@ -228,9 +223,25 @@ body{
 
     /* line-height: 30px; */
 }
+.third{
+    
+    height: 700px;
+    width: 100%;
+background-color: brown;
+}
 
 
 
+.topthird{
+    height: 55px;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center; 
+    align-items: end;
+    color: rgb(184, 184, 184);
+
+}
 
 
 
@@ -244,6 +255,7 @@ body{
         background: rgb(0,7,38);
         background: linear-gradient(90deg, rgb(0, 5, 26) 49%, rgb(6, 18, 46) 100%);        color: white;
         font-family: "Poppins", serif;
+
     }
 
     .navbar{
@@ -370,8 +382,9 @@ body{
     }
     
     .text1 > h4{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         margin-top: 350px;
+        line-height: 20px;
         font-weight: 300;
         text-align: center;
     }
@@ -400,9 +413,10 @@ body{
     
     
     .second{
-        height: 700px;
+        height: 1730px;
         width: 100%;
         /* background-color: aqua; */
+       
     }
     
     .topsecond{
@@ -414,7 +428,76 @@ body{
     }
     
 
+    
+.mid-second{
+    height: 1600px;
+    width: 100%;
+    display: block;
+    position: relative;
+  
+    /* background-color: blue; */
+}
 
+.left-second{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 180px;
+    /* background-color: rgb(43, 255, 0); */
+    margin-left:0px;
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+.img1{
+    height: 300px;
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.img2{
+    height: 330px;
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 300px;
+    margin-left:0px;
+
+}
+
+
+.right-second{
+    height: 1000px;
+    width: 100%;
+    /* background-color: rgb(218, 57, 51); */
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.text2 > h2{
+    font-size: 1.5rem;
+    margin-top: 350px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.text2 > p{
+    font-size: 0.9rem;
+    color: white;
+    margin-top: 10px;
+    width: 100%;
+    word-spacing: 2px;
+    line-height: 25px;
+    text-align: center;
+}
+
+
+#no-mt{
+    margin-top: 0px;
+}
 
 
    
