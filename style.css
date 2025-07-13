@@ -545,29 +545,22 @@ body{
 
   }
 
-
-}
-
-
-  /* ✅ Mobile View (max-width: 600px) */
-@media only screen and (max-width: 600px) {
-  .nav-menu {
+    .nav-menu {
     display: none;
     flex-direction: row;
     position: absolute;
 
     top: 60px;
-    font-size: 0.8rem;
     left: 0;
     /* right: 0; */
     background:rgba(2, 2, 124, 0.377) ;
-    width: 95%;
+    width: 93%;
     text-align: center;
     z-index: 999;
     height: auto;
 
 
-        justify-content: space-around;
+        justify-content: space-evenly;
 
         margin: auto;
 
@@ -577,10 +570,16 @@ body{
     display: flex;
   }
   .nav-menu a {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
+
     padding: 15px 0px;
     border-top: 1px solid rgba(255,255,255,0.2);
   }
+
+  .nav-menu a:hover{
+    color: rgb(144, 144, 233);
+    font-size: 0.7rem;
+}
   .hamburger {
     margin: 40px;
     display: block;
@@ -588,6 +587,8 @@ body{
     cursor: pointer;
     z-index: 1000;
   }
+
+
 }
 
 
