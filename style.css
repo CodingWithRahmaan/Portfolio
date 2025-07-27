@@ -166,7 +166,8 @@ body{
     display: flex;
     justify-content: center; 
     align-items: end;
-    /* color: rgb(184, 184, 184); */
+    color: rgb(184, 184, 184);
+    
 
 }
 
@@ -226,7 +227,7 @@ body{
 }
 .third{
     
-    height: 700px;
+    height: auto;
     width: 100%;
 /* background-color: brown; */
 }
@@ -248,7 +249,7 @@ body{
 
 
   .mid-third{
-    height: 100%;
+    height: auto;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -311,6 +312,50 @@ body{
 
 
 
+.footer {
+  background: linear-gradient(90deg, rgb(0, 5, 26) 49%, rgb(9, 24, 59) 100%);
+  padding: 20px 20px;
+  text-align: center;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  /* border-top: 1px solid rgba(255, 255, 255, 0.1); */
+  margin-top: 0px;
+}
+
+.footer h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: rgb(144, 144, 233);
+}
+
+.footer p {
+  font-size: 14px;
+  color: #ccc;
+  margin-bottom: 15px;
+}
+
+.footer-socials a {
+  color: white;
+  font-size: 18px;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.footer-socials a:hover {
+  color: rgb(121, 121, 224);
+}
+
+@media screen and (max-width: 600px) {
+  .footer h2 {
+    font-size: 20px;
+  }
+  .footer p {
+    font-size: 12px;
+  }
+  .footer-socials a {
+    font-size: 16px;
+  }
+}
 
 
 
@@ -326,7 +371,7 @@ body{
 /* ✅ Laptop View (901px – 1200px) */
 @media only screen and (max-width: 1200px) and (min-width: 901px) {
   .nav-menu a{
-  FONT-SIZE: 0.90rem;
+  FONT-SIZE: 0.70rem;
     text-decoration: none;
     color: white;
 }
@@ -479,7 +524,7 @@ body{
 
 }
 .nav-menu a{
-  FONT-SIZE: 0.82rem;
+  FONT-SIZE: 0.68rem;
     text-decoration: none;
     color: white;
 }
@@ -756,7 +801,7 @@ body{
 
 .card {
   width: 90%;
-  height:200px;
+  height:130px;
   background: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
